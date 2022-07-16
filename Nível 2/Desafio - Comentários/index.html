@@ -1,0 +1,145 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio - Comentários</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap");
+      body {
+        background-color: #8978ed;
+        font-family: "Space Grotesk", sans-serif;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+      }
+
+      .caixa {
+        display: flex;
+        width: 600px;
+        height: 128px;
+        background-color: white;
+        border-radius: 32px;
+      }
+
+      .bloco-1 {
+        margin-block: 24px;
+        margin-left: 56px;
+      }
+
+      .bloco-2 {
+        margin-left: 40px;
+      }
+
+      .bloco-2 header {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+      }
+
+      .bloco-2 header span {
+        margin-left: 5px;
+        font-weight: 600;
+        color: #8978ed;
+      }
+
+      .bloco-2 p {
+        margin-top: 8px;
+        margin-bottom: 32px;
+      }
+
+      /* CAIXA 3 */
+      .caixa-3 {
+        display: flex;
+        width: 600px;
+        height: 240px;
+        background-color: white;
+        border-radius: 32px;
+      }
+
+      .caixa-3 .bloco-2 {
+        margin-left: 0px;
+      }
+
+      .caixa-3 .bloco-2 header p {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .icons,
+      .bloco-3 {
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="caixa">
+        <div class="bloco-1">
+          <img src="./assets-03/img-profile.png" />
+        </div>
+        <div class="bloco-2">
+          <header>
+            <h2>Marcelo Melo</h2>
+            <span>· 3h atrás</span>
+          </header>
+          <p>Quem fez o desafio, compartilha aqui!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="caixa">
+        <div class="bloco-1">
+          <img src="./assets-03/img-profile-1.png" />
+        </div>
+        <div class="bloco-2">
+          <header>
+            <h2>Sérgio Campos</h2>
+            <span>· 2h atrás</span>
+          </header>
+          <p>Tô finalizando o CSS</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="caixa-3">
+        <div class="bloco-1">
+          <img src="./assets-03/img-profile-2.png" />
+          <img src="./assets-03/likes.svg" class="icons" />
+        </div>
+        <div class="conteudo">
+          <div class="bloco-2">
+            <header>
+              <h2>Aline Cardoso</h2>
+              <span>· 2h atrás</span>
+            </header>
+            <p>
+              Já consegui terminar meu primeiro desafio! Deu trabalho mas estou
+              feliz que consegui!
+            </p>
+          </div>
+
+          <div class="bloco-3">
+            <p>
+              <strong>Você e outras 40 pessoas</strong> curtiram <br />
+              esse comentário
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

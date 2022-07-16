@@ -1,0 +1,166 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio - Input</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap");
+      body {
+        background-color: #18161f;
+        font-family: "Space Grotesk", sans-serif;
+        color: white;
+        overflow-y: hidden;
+      }
+
+      header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      header img,
+      main .headline,
+      .btn-comprar {
+        margin-left: 88px;
+      }
+
+      header button {
+        background: none;
+        border: none;
+        color: white;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        margin-left: 700px;
+      }
+
+      header .btn-inscricao {
+        margin-left: 80px;
+        border: 1px solid #49445f;
+        border-radius: 90px;
+        padding: 12px 28px;
+      }
+
+      header .btn-inscricao span {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+      }
+
+      main {
+        display: flex;
+      }
+
+      main .headline {
+        width: 680px;
+        height: 342px;
+        margin-top: 108px;
+      }
+
+      main .headline p {
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+      }
+
+      main .headline p span {
+        text-transform: uppercase;
+        margin-left: 20px;
+      }
+
+      main .headline h1 {
+        width: 652px;
+        margin-bottom: 32px;
+        font-size: 52px;
+      }
+
+      main .headline .description {
+        font-size: 20px;
+        width: 680px;
+      }
+
+      main .imagem-bruno img {
+        width: 421px;
+        height: 461px;
+        position: absolute;
+        top: 192px;
+        left: 1020px;
+      }
+
+      main .efeito {
+        height: 100vh;
+        position: absolute;
+        width: 190px;
+        height: 730px;
+        left: 150px;
+        top: 0px;
+      }
+
+      .btn-comprar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 290px;
+        height: 74px;
+        border-radius: 90px;
+        background-color: #00d9c0;
+        margin-top: 106px;
+        text-align: center;
+        padding: 10px 22px;
+      }
+
+      .btn-comprar span {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./assets/logo.svg" />
+        <button>
+          <img src="./assets/user.svg" />
+          <span>Já sou aluno</span>
+        </button>
+
+        <div class="btn-inscricao">
+          <span>Faça sua Inscrição</span>
+        </div>
+      </header>
+
+      <main>
+        <div class="headline">
+          <p>
+            <img src="./assets/lightning.svg" />
+            <span>Faça parte da turma 1</span>
+          </p>
+
+          <h1>Saia do zero e comece sua carreira como dev Full Stack</h1>
+          <p class="description">
+            Aprenda as habilidades necessárias para sair do completo zero e
+            conquistar sua primeira vaga no mercado da programação já nos
+            próximos meses.
+          </p>
+        </div>
+
+        <div class="efeito">
+          <img src="./assets/effect-blur.svg" />
+        </div>
+
+        <div class="imagem-bruno">
+          <img src="./assets/img-bruno.png" />
+        </div>
+      </main>
+      <div class="btn-comprar">
+        <span>Garantir minha vaga</span>
+      </div>
+    </div>
+  </body>
+</html>
