@@ -45,8 +45,7 @@ src="./Prints%20-%202/desafio-menu.png">
 
 <img 
 width="400px"
-src="./Prints%20-%202/
-desafio-input.png">
+src="./Prints%20-%202/desafio-input.png">
 
 </div>
 
